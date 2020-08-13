@@ -40,8 +40,8 @@
                 </p>
             </a>
         </li>
-        <li class="nav-item has-treeview">
-            <a href="#" class="nav-link">
+        <li class="nav-item has-treeview menu-open">
+            <a href="#" class="nav-link active">
                 <i class="nav-icon fas fa-copy"></i>
                 <p>
                     布局选项
@@ -51,7 +51,7 @@
             </a>
             <ul class="nav nav-treeview">
                 <li class="nav-item">
-                    <a href="pages/layout/top-nav.html" class="nav-link">
+                    <a href="pages/layout/top-nav.html" class="nav-link active">
                         <i class="far fa-circle nav-icon"></i>
                         <p>顶部导航</p>
                     </a>
@@ -444,12 +444,12 @@
         </li>
         <li class="nav-header">多级示例</li>
         <li class="nav-item">
-            <a href="#" class="nav-link">
+            <a href="#" class="nav-link ">
                 <i class="fas fa-circle nav-icon"></i>
                 <p>一级</p>
             </a>
         </li>
-        <li class="nav-item has-treeview">
+        <li class="nav-item has-treeview menu-open">
             <a href="#" class="nav-link">
                 <i class="nav-icon fas fa-circle"></i>
                 <p>
@@ -457,22 +457,22 @@
                     <i class="right fas fa-angle-left"></i>
                 </p>
             </a>
-            <ul class="nav nav-treeview">
+            <ul class="nav nav-treeview menu-open">
                 <li class="nav-item">
-                    <a href="#" class="nav-link">
+                    <a href="#" class="nav-link ">
                         <i class="far fa-circle nav-icon"></i>
                         <p>二级</p>
                     </a>
                 </li>
-                <li class="nav-item has-treeview">
-                    <a href="#" class="nav-link">
+                <li class="nav-item has-treeview menu-open">
+                    <a href="#" class="nav-link active">
                         <i class="far fa-circle nav-icon"></i>
                         <p>
                             二 级
                             <i class="right fas fa-angle-left"></i>
                         </p>
                     </a>
-                    <ul class="nav nav-treeview">
+                    <ul class="nav nav-treeview menu-open">
                         <li class="nav-item">
                             <a href="#" class="nav-link">
                                 <i class="far fa-dot-circle nav-icon"></i>
@@ -480,7 +480,7 @@
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link">
+                            <a href="#" class="nav-link active">
                                 <i class="far fa-dot-circle nav-icon"></i>
                                 <p>三级</p>
                             </a>

@@ -4,7 +4,7 @@ namespace app\models;
 use think\Model;
 class User extends Model
 {
-    
+
 }
 
 

@@ -14,4 +14,9 @@ class UserController extends Controller
         return view();
     }
 
+    public function add()
+    {
+        return view();
+    }
+
 }
